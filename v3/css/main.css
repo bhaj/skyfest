@@ -1,0 +1,305 @@
+/* General - Sticky Menu, Headings, Font-Family, Links, Backgrounds */
+html, body {
+  height: 100%;
+  font-family: 'Josefin Sans', sans-serif; }
+
+.bg1 {
+  background: url(images/Untitled-1.jpg); }
+
+.bg2 {
+  background: url(images/Untitled-2.jpg); }
+
+.bg3 {
+  background: url(images/Untitled-3.jpg); }
+
+.bg4 {
+  background: url(images/Untitled-4.jpg); }
+
+.bg5 {
+  background: url(images/Untitled-5.jpg); }
+
+.bg6 {
+  background: url(images/Untitled-6.jpg); }
+
+.bg7 {
+  background: url(images/Untitled-7.jpg); }
+
+.bg8 {
+  background: url(images/Untitled-8.jpg); }
+
+.bg9 {
+  background: url(images/Untitled-9.jpg); }
+
+.bg10 {
+  background: url(images/Untitled-10.jpg); }
+
+.bg11 {
+  background: url(images/Untitled-11.jpg); }
+
+.bg12 {
+  background: url(images/Untitled-12.jpg); }
+
+.bg13 {
+  background: url(images/Untitled-13.jpg); }
+
+.bg14 {
+  background: url(images/Untitled-14.jpg); }
+
+.bg15 {
+  background: url(images/Untitled-15.jpg); }
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -70px;
+  background-size: cover; }
+
+a {
+  color: #6ac1d5; }
+
+h2 {
+  font-size: 120px;
+  margin: 10px 0 10px 0; }
+
+h3 {
+  font-size: 35px;
+  margin: 30px 0 10px 0; }
+
+.no-ul a {
+  text-decoration: none; }
+
+/* Sticky Menu Dimensions */
+.arrows {
+  width: 2.5%; }
+
+li {
+  display: inline-block;
+  width: 19%;
+  border-top: 5px solid transparent; }
+
+.push {
+  height: 70px; }
+
+.menu, li, ul {
+  height: 65px;
+  line-height: 65px; }
+
+/* Sticky Menu Colours */
+li:hover {
+  border-top: 5px solid #6ac1d5;
+  /* Sticky Menu Dimensions */
+  background: rgba(0, 0, 0, 0.45); }
+
+li {
+  background: rgba(0, 0, 0, 0.35); }
+
+/* Sticky Menu Links, Fonts & Other */
+ul, li, p {
+  margin: 0;
+  padding: 0;
+  font-size: 0; }
+
+li {
+  text-align: center;
+  font-size: 35px; }
+
+li a, #show-hide a, .logo a, .mugshot a {
+  margin: 0;
+  display: block;
+  height: 100%;
+  width: 100%; }
+
+/* Logo */
+.logo {
+  background: url(images/Untitled-2.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 200px;
+  width: 19%;
+  /* Width Same as Menu Button Width */
+  margin: 3% 0 0 2.5%;
+  /* Left Margin Same as Arrow Width */
+  float: left; }
+
+/* Content General*/
+.content {
+  float: right;
+  width: 38%;
+  margin: 0 4.5% 0 0;
+  text-align: center;
+  color: black; }
+
+.text {
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 0 4.5%;
+  background: rgba(252, 252, 252, 0.92); }
+
+#show-hide {
+  height: 6vh;
+  line-height: 5vh; }
+
+.show-hide-bg {
+  background: rgba(0, 0, 0, 0.35); }
+
+.show-show-hide {
+  background: rgba(0, 0, 0, 0.5); }
+
+.minus {
+  font-size: 95px; }
+
+.plus {
+  font-size: 65px; }
+
+.textshow {
+  height: 75vh; }
+
+.texthide {
+  height: 0; }
+
+/* Content Font Sizes */
+.font1 {
+  font-size: 32px;
+  line-height: 38px; }
+
+.font2 {
+  font-size: 28px;
+  line-height: 34px; }
+
+.font3 {
+  font-size: 27px;
+  line-height: 33px; }
+
+.font4 {
+  font-size: 25px;
+  line-height: 31px; }
+
+.font5 {
+  font-size: 22px;
+  line-height: 28px; }
+
+.font6 {
+  font-size: 20px;
+  line-height: 26px; }
+
+.font7 {
+  font-size: 17px;
+  line-height: 23px; }
+
+#show-hide {
+  font-size: 45px; }
+
+/* Content Features */
+.line {
+  height: 10px;
+  background: #6ac1d5;
+  margin: 11px 0; }
+
+.standout {
+  color: #fcfcfc;
+  background: #6ac1d5;
+  padding: 10px 0 7px 0; }
+
+.map {
+  margin-bottom: 20px; }
+
+/* Content Formating */
+.section-margin {
+  height: 20px; }
+
+.spacing {
+  height: 45px; }
+
+.blueish {
+  color: #6ac1d5; }
+
+.fb {
+  color: #3B5998; }
+
+.redish {
+  color: #f24848; }
+
+.alternate-align {
+  text-align: left; }
+
+/* Teachers */
+#ms1 {
+  background: url(images/Mugshots/HB.jpg); }
+
+#ms2 {
+  background: url(images/Mugshots/Bruce.jpg); }
+
+#ms3 {
+  background: url(images/Mugshots/Colleen.jpg); }
+
+#ms4 {
+  background: url(images/Mugshots/Karin.jpg); }
+
+#ms5 {
+  background: url(images/Mugshots/Kerri.jpg); }
+
+#ms6 {
+  background: url(images/Mugshots/Lakhbir.jpg); }
+
+#ms7 {
+  background: url(images/Mugshots/Phil.jpg); }
+
+#ms8 {
+  background: url(images/Mugshots/Pritam.jpg); }
+
+#ms9 {
+  background: url(images/Mugshots/Ravi.jpg); }
+
+#ms10 {
+  background: url(images/Mugshots/Seda.jpg); }
+
+#ms11 {
+  background: url(images/Mugshots/Shantjot.jpg); }
+
+#ms12 {
+  background: url(images/Mugshots/Sharon.jpg); }
+
+#ms13 {
+  background: url(images/Mugshots/Siri-D.jpg); }
+
+#ms14, #ms15 {
+  background: rgba(38, 38, 38, 0.2); }
+
+#ms1, #ms2, #ms3, #ms4, #ms5, #ms6, #ms7, #ms8, #ms9, #ms10, #ms11, #ms12, #ms13 {
+  background-size: cover; }
+
+.mugshot {
+  width: 33.33%;
+  float: left; }
+
+.ms-container {
+  width: 97%;
+  margin: 0 auto; }
+
+.bio {
+  display: none;
+  padding: 15px; }
+
+/* Program (& Lightbox) */
+.prog {
+  max-width: 97%;
+  margin: 40px 0;
+  /*check other margins to keep this in line with rest of site*/ }
+
+#lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center; }
+
+#lightbox p {
+  text-align: right;
+  color: #fff; }
+
+#lightbox img {
+  max-width: 80%;
+  margin-top: 15vh; }

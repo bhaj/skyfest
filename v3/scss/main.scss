@@ -1,3 +1,5 @@
+@import "normalize";
+
 /* General - Sticky Menu, Headings, Font-Family, Links, Backgrounds */
 html, body {
     height: 100%;
@@ -86,7 +88,7 @@ h3 {
     margin: 30px 0 10px 0;
 }
 
-.no-ul a {   
+.no-ul a {
     text-decoration: none;
 }
 
@@ -128,7 +130,7 @@ ul, li, p {
     margin: 0;
     padding: 0;
     font-size: 0;
-} 
+}
 
 li {
     text-align: center;
@@ -149,7 +151,7 @@ li a, #show-hide a, .logo a, .mugshot a {
     background-repeat: no-repeat;
     background-position: top;
     height: 200px;
-    width: 19%; /* Width Same as Menu Button Width */ 
+    width: 19%; /* Width Same as Menu Button Width */
     margin: 3% 0 0 2.5%; /* Left Margin Same as Arrow Width */
     float: left;
 }
@@ -199,7 +201,7 @@ li a, #show-hide a, .logo a, .mugshot a {
 .texthide {
     height: 0;
 }
-    
+
 
 /* Content Font Sizes */
 .font1 {
@@ -346,7 +348,7 @@ li a, #show-hide a, .logo a, .mugshot a {
 #ms1, #ms2, #ms3, #ms4, #ms5, #ms6, #ms7, #ms8, #ms9, #ms10, #ms11, #ms12, #ms13 {
     background-size: cover;
 }
-    
+
 .mugshot {
     width: 33.33%;
     float: left;

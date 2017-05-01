@@ -160,7 +160,7 @@ li a, #show-hide a, .logo a, .mugshot a {
 /* Content General*/
 .content {
     float: right;
-    width: 38%;
+    width: 45%;
     margin: 0 4.5% 0 0;
     text-align: center;
     color: black;
@@ -259,6 +259,11 @@ li a, #show-hide a, .logo a, .mugshot a {
 
 .map {
     margin-bottom: 20px;
+    border: 2px solid grey;
+    // height: 275px;
+}
+.map, .iframe-map {
+  height: 275px;
 }
 
 
